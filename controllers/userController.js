@@ -21,9 +21,39 @@ exports.getUser = async (req, res, next) => {
 
 exports.getAllUsers = async (req, res, next) => {
   try {
-    const users = await User.find().select('-__v');
+    // BUILDING A QUERY
+    const queryObj = { ...req.query };
+    const excludedFields = ['page', 'sort', 'limit', 'fields'];
+
+    excludedFields.forEach((field) => delete queryObj[field]);
+    // console.log(queryObj);
+
+    let query = User.find(queryObj);
+
+    // 1) SORTING
+    // ?sort=name,username
+    if (req.query.sort) {
+      const sortBy = req.query.sort.split(',').join(' ');
+      // 'name username'
+      query = query.sort(sortBy);
+    } else {
+      query = query.sort('-createdAt');
+    }
+
+    // 2) FIELD LIMITING
+    // ?fields=name,username,email,phone,website
+    if (req.query.fields) {
+      const fields = req.query.fields.split(',').join(' ');
+      query = query.select(fields);
+    } else {
+      query = query.select('-__v');
+    }
+
+    const users = await query;
+
     res.status(200).json({
       status: 'success',
+      results: users.length,
       data: {
         users,
       },
@@ -31,7 +61,7 @@ exports.getAllUsers = async (req, res, next) => {
   } catch (err) {
     res.status(404).json({
       status: 'Failed',
-      message: err,
+      message: err.message,
     });
   }
 };

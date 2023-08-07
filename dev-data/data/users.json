@@ -1,0 +1,132 @@
+[
+  {
+    "name": "Leanne Graham",
+    "username": "Bret",
+    "email": "Sincere@april.biz",
+    "address": {
+      "street": "Kulas Light",
+      "city": "Gwenborough",
+      "zipcode": 929983874,
+      "landmark": "backside of Gwenborough"
+    },
+    "phone": 6712667127,
+    "website": "hildegard.org"
+  },
+  {
+    "name": "Ervin Howell",
+    "username": "Antonette",
+    "email": "Shanna@melissa.tv",
+    "address": {
+      "street": "Victor Plains",
+      "city": "Wisokyburgh",
+      "zipcode": 905667771,
+      "landmark": "backside of Wisokyburgh"
+    },
+    "phone": 9129090109,
+    "website": "anastasia.net"
+  },
+  {
+    "name": "Clementine Bauch",
+    "username": "Samantha",
+    "email": "Nathan@yesenia.net",
+    "address": {
+      "street": "Douglas Extension",
+      "city": "McKenziehaven",
+      "zipcode": 595904157,
+      "landmark": "backside of McKenziehaven"
+    },
+    "phone": 128991298,
+    "website": "ramiro.info"
+  },
+  {
+    "name": "Patricia Lebsack",
+    "username": "Karianne",
+    "email": "Julianne.OConner@kory.org",
+    "address": {
+      "street": "Hoeger Mall",
+      "city": "South Elvis",
+      "zipcode": 539194257,
+      "landmark": "backside of South Elvis"
+    },
+    "phone": 9290910921,
+    "website": "kale.biz"
+  },
+  {
+    "name": "Chelsey Dietrich",
+    "username": "Kamren",
+    "email": "Lucio_Hettinger@annie.ca",
+    "address": {
+      "street": "Skiles Walks",
+      "city": "Roscoeview",
+      "zipcode": 33263,
+      "landmark": "backside of Roscoeview"
+    },
+    "phone": 2549541289,
+    "website": "demarco.info"
+  },
+  {
+    "name": "Mrs. Dennis Schulist",
+    "username": "Leopoldo_Corkery",
+    "email": "Karley_Dach@jasper.info",
+    "address": {
+      "street": "Norberto Crossing",
+      "city": "South Christy",
+      "zipcode": 235051337,
+      "landmark": "backside of South Christy"
+    },
+    "phone": 81298891289,
+    "website": "ola.org"
+  },
+  {
+    "name": "Kurtis Weissnat",
+    "username": "Elwyn.Skiles",
+    "email": "Telly.Hoeger@billy.biz",
+    "address": {
+      "street": "Rex Trail",
+      "city": "Howemouth",
+      "zipcode": 588041099,
+      "landmark": "backside of Howemouth"
+    },
+    "phone": 2100676132,
+    "website": "elvis.io"
+  },
+  {
+    "name": "Nicholas Runolfsdottir V",
+    "username": "Maxime_Nienow",
+    "email": "Sherwood@rosamond.me",
+    "address": {
+      "street": "Ellsworth Summit",
+      "city": "Aliyaview",
+      "zipcode": 45169,
+      "landmark": "backside of Aliyaview"
+    },
+    "phone": 2891980092,
+    "website": "jacynthe.com"
+  },
+  {
+    "name": "Glenna Reichert",
+    "username": "Delphine",
+    "email": "Chaim_McDermott@dana.io",
+    "address": {
+      "street": "Dayna Park",
+      "city": "Bartholomebury",
+      "zipcode": 764953109,
+      "landmark": "backside of Bartholomebury"
+    },
+    "phone": 775976794,
+    "website": "conrad.com"
+  },
+  {
+    "name": "Clementina DuBuque",
+    "username": "Moriah.Stanton",
+    "email": "Rey.Padberg@karina.biz",
+    "address": {
+      "street": "Kattie Turnpike",
+      "city": "Lebsackbury",
+      "zipcode": 314282261,
+      "landmark": "backside of Lebsackbury"
+    },
+    "phone": 89129889,
+    "website": "ambrose.net"
+  }
+]
