@@ -9,6 +9,8 @@ if (process.env.NODE_ENV.toLowerCase().trim() === 'development') {
   app.use(morgan('dev'));
 }
 
+app.use(express.json());
+
 app.use('/api/v1/users', userRouter);
 
 module.exports = app;
